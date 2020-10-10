@@ -35,12 +35,12 @@ a:hover {
   width: 95%;
   margin: 1.5rem 0;
   margin-left: 1rem;
-  background-color: #ffffff;
+  background-color: #8f8787;
 }
 
 .hrfull {
   margin-left: -40px;
-  background-color: #ffffff;
+  background-color: #8f8787;
   display: block;
   margin: 0;
 }
@@ -69,9 +69,6 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.heightH {
-  height: 35vh;
-}
 
 /* landing page */
 .landing {
@@ -161,7 +158,8 @@ a:hover {
 
 .btn-outline-secondary {
   font-size: 1.35rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -417,13 +415,19 @@ a {
 }
 
 .about-content {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.5;
+  margin-top: 2rem;
+  width: 70%;
 }
 
 @media only screen and (min-device-width: 781px) and (max-device-width: 1200px) {
+  .about-img{
+    height: 15rem;
+  }
   .about-content {
     font-size: 1.5rem;
+
   }
 }
 
@@ -463,12 +467,13 @@ a {
 }
 
 .work-heading {
-  font-size: 3rem;
-  margin: 2rem auto;
+  font-size: 2rem;
+  margin: 2rem auto .7rem;
 }
 
 .work-content {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 .hh {
