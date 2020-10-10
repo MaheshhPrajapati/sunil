@@ -76,7 +76,6 @@ a:hover {
 /* landing page */
 .landing {
   padding-top: 4rem;
-  height: 100vh;
   background: url("./images/picsused/IMG_20191128_162936(2).jpg") fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -247,7 +246,7 @@ a {
 }
 
 /* media settings */
-@media screen and (min-device-width: 577px) and (max-device-width: 1300px) {
+@media screen and (min-device-width: 577px) and (max-device-width: 1050px) {
   .navbar {
     height: 4.5rem;
   }
@@ -264,6 +263,12 @@ a {
   }
   .heading {
     font-size: 3rem;
+  }
+  .landing{
+    background: url("./images/IMG-20181116-WA0001-min.jpg") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
   }
   .content {
     font-size: 2rem;
@@ -292,12 +297,24 @@ a {
 }
 
 @media screen and (min-device-width: 481px) and (max-device-width: 576px) {
+  .landing{
+    background: url("./images/IMG-20181116-WA0001-min.jpg") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
   .footercredit {
     font-size: .8rem;
   }
 }
 
 @media only screen and (min-device-width: 361px) and (max-device-width: 480px) {
+  .landing{
+    background: url("./images/IMG-20181116-WA0001-min.jpg") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
   .iconcircle {
     margin: 1rem 0;
     height: 30px;
@@ -312,6 +329,12 @@ a {
 }
 
 @media only screen and (min-device-width: 341px) and (max-device-width: 360px) {
+  .landing{
+    background: url("./images/IMG-20181116-WA0001-min.jpg") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
   .heading {
     font-size: 1.1rem;
   }
@@ -341,6 +364,12 @@ a {
 }
 
 @media only screen and (max-device-width: 340px) {
+  .landing{
+    background: url("./images/IMG-20181116-WA0001-min.jpg") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
   .h1content {
     font-size: 2.5rem;
   }
